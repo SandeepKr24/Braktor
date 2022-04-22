@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inconsolata:wght@300&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/5b49784b1e.js" crossorigin="anonymous"></script>
+
+  <!-- JScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="login">
+
+    <div class="credentials">
+
+      <div class="id">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Username">
+      </div>
+      <div class="pass">
+        <label for="">Password</label>
+        <input type="password" name="password" placeholder="Password">
+      </div>
+
+    </div>
+    <div class="login-button">
+      <button type="button" class="btn btn-md btn-outline-light" name="button">Login</button>
+    </div>
+
+  </section>
+
+  <section class="signup">
+
+    <div class="left-container">
+
+      <div class="company">
+        <br><br><br><br><br><br><br>
+        <p>New to <br><span class="company-name">Braktor?</span></p>
+      </div>
+
+    </div>
+
+    <div class="right-container">
+
+      <div class="container-element">
+        <h1 style="text-align: left;">Sign Up <span class="for-free">for free</span></h1>
+        <br>
+      </div>
+
+      <div class="container-element">
+        <label for="email"><b>Email</b></label>
+        <br>
+        <textarea name="emid" placeholder="Enter Email" rows="1" cols="70"></textarea>
+        <!-- <input type="text" placeholder="Enter Email" name="email" required> -->
+        <br>
+        <br>
+
+        <label for="psw"><b>Password</b></label>
+        <br>
+        <textarea name="pswd" placeholder="Password" rows="1" cols="70"></textarea>
+        <!-- <input type="password" placeholder="Password" name="psw" required> -->
+        <br>
+        <br>
+
+        <label for="psw-repeat"><b>Confirm Password</b></label>
+        <br>
+        <textarea name="cnfrmpswd" placeholder="Confirm Password" rows="1" cols="70"></textarea>
+        <!-- <input type="password" placeholder="Confirm Password" name="psw-repeat" required> -->
+        <br>
+        <br>
+
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+        <div class="clearfix">
+          <button type="button" class="btn btn-md btn-outline-dark">Sign Up</button>
+          <button type="submit" class="btn btn-md btn-outline-danger">Cancel</button>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-txt">Mobile App launching soon. Stay tuned!</h3>
+    <!-- <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button> -->
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <div class="socials">
+      <button type="button" class="btn btn-sm btn-outline"><i class="fa-brands fa-twitter"></i></button>
+      <button type="button" class="btn btn-sm btn-outline"><i class="fa-brands fa-instagram-square"></i></button>
+      <button type="button" class="btn btn-sm btn-outline"><i class="fa-brands fa-facebook"></i></button>
+      <button type="button" class="btn btn-sm btn-outline"><i class="fa-solid fa-envelope"></i></button>
+    </div>
+
+    <p class="footer-txt">© Copyright braktor</p>
+
+  </footer>
+
+</body>
+
+</html>

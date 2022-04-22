@@ -1,0 +1,287 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-image: linear-gradient(110.1deg, rgba(30, 2, 83, 1) 44.2%, rgba(198, 55, 160, 1) 138.2%);
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 4.0rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #fff;
+  color: #purple;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* call to action */
+#cta {
+  background-image: radial-gradient(circle farthest-corner at 32.7% 82.7%, rgba(173, 0, 171, 1) 8.3%, rgba(15, 51, 92, 1) 79.4%);
+  text-align: center;
+  padding: 1.5%;
+  padding-bottom: 3%;
+  margin-top: 100px;
+}
+
+.cta-txt {
+  font-family: "Montserrat";
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fff;
+  padding: 3% 7% 0.1%;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 30%;
+}
+
+.footer-txt {
+  color: grey;
+  padding-top: 3%;
+}
+
+/* bracket-generator */
+
+#bracket-generator {
+  text-align: justify;
+  padding: 5%;
+}
+
+.middle-left-container {
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-top: 100px;
+  float: left;
+  margin-left: 150px;
+}
+
+.middle-right-container {
+  margin-top: 75px;
+  float: right;
+  margin-right: 100px;
+}
+
+.choice-elements {
+  margin: 2% auto;
+}
+
+.bracket-example {
+  border-radius: 50px;
+  transform: rotate(10deg);
+  width: 500px;
+  height: 250px;
+}
+
+/* end of bracket-generator */
+
+/* call to action in info page */
+#cta-info {
+  background-image: radial-gradient(circle farthest-corner at 32.7% 82.7%, rgba(173, 0, 171, 1) 8.3%, rgba(15, 51, 92, 1) 79.4%);
+  text-align: center;
+  padding: 1.5%;
+  padding-bottom: 3%;
+  margin-top: 400px;
+}
+
+.cta-txt-info {
+  font-family: "Montserrat";
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fff;
+  padding: 3% 7% 0.1%;
+}
+
+/* end of cta in info page */
+
+/* footer in info page */
+#footer-info {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 30%;
+}
+
+.footer-txt-info {
+  color: grey;
+  padding-top: 3%;
+}
+
+/* end of footer in info page */
+
+/* dropdown menu */
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* end of dropdown menu */
+
+/* for bracket page only */
+
+#bracket {
+  text-align: justify;
+  padding: 5%;
+}
+
+.bracket-container {
+  text-align: center;
+  display: inline-block;
+  margin-top: 25px;
+  float: left;
+  margin-left: 200px;
+}
+
+.bracket-text-container {
+  text-align: center;
+  margin-top: 25px;
+  float: right;
+  margin-right: 150px;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+/* Accounts.html */
+
+.login {
+  background-image: linear-gradient(110.1deg, rgba(30, 2, 83, 1) 44.2%, rgba(198, 55, 160, 1) 138.2%);
+  color: white;
+  padding: 30px;
+}
+
+.credentials {
+  display: block;
+  margin: 20px 20px 20px 800px;
+}
+
+.login-button {
+  display: block;
+  margin-left: 1358px;
+}
+
+.id {
+  display: inline-block;
+  padding: 5px;
+}
+
+.pass {
+  display: inline-block;
+  padding: 5px;
+}
+
+.company-name {
+  font-size: 4.0rem;
+}
+
+.for-free {
+  font-size: 1.5rem;
+}
+
+.signup {
+  padding-right: 50px;
+  margin-bottom: 600px;
+}
+
+.left-container {
+  padding: 50px;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.right-container {
+  padding: 50px;
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
